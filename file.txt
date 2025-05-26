@@ -36,4 +36,22 @@ git checkout feature-branch
 git push -u origin feature-branch
 
 
+<<<<<<< HEAD
+//merge : -----------------------------++
+git checkout main
+git pull origin main
+git merge feature-login
+git push origin main
+
 // my name is hemaxi
+
+=======
+//merge : -----------------------------++
+git checkout main
+git pull origin main
+git merge feature-login
+git push origin main
+
+// my name is hemaxi
+
+>>>>>>> feature-branch
