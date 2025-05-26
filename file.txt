@@ -34,10 +34,3 @@ git checkout feature-branch
 
 //push : ---
 git push -u origin feature-branch
-
-
-//merge sub branch into main branch : ----------------------------- +++++++++++++++++++
-git checkout main
-git pull origin main
-git merge feature-branch
-git push origin main
