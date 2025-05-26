@@ -6,10 +6,22 @@ echo '/node_modules' >> .gitignore
 
 
 
+git credential-cache exit
+git config user.name "Hemaxi22"
+git config user.email "your_email@example.com"
+
+
 git init
+
+//stage all changes :
 git add .
-git commit -m "commit sussfully"
-git remote add origin https://github.com/your-username/laravel-project.git
+
+//stage one file :
+git add file.txt
+
+
+git commit -m "commit successfull"
+git remote add origin https://github.com/hemaxirathod/Adminpanel.git
 git push -u origin main
 
 
