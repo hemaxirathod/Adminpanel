@@ -25,3 +25,12 @@ git remote add origin https://github.com/hemaxirathod/Adminpanel.git
 git push -u origin main
 
 
+//create branch : ---
+git branch feature-branch
+
+
+//move to sub branch : ---
+git checkout feature-branch
+
+//push : ---
+git push -u origin feature-branch
