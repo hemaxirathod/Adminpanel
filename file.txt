@@ -43,10 +43,8 @@ git merge feature-login
 git push origin main
 
 
-<<<<<<< HEAD
 hello ! ----------
-=======
 
 
 
->>>>>>> feature-branch
+
